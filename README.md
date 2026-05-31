@@ -2,13 +2,13 @@
 
 **Gerçek dünya şehirlerini harmanlayarak oynanabilir 3D oyun haritaları üret.**
 
-[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Deneyin-e94560?style=for-the-badge)](https://harman.streamlit.app)
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Deneyin-e94560?style=for-the-badge)](https://harman-4n2pw2i72onbrktrkm38cm.streamlit.app)
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://python.org)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.32+-red.svg)](https://streamlit.io)
 [![Three.js](https://img.shields.io/badge/Three.js-r128-green.svg)](https://threejs.org)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-> 🎮 **[→ Hemen Dene: harman.streamlit.app](https://harman.streamlit.app)**
+> 🎮 **[→ Hemen Dene: harman.streamlit.app](https://harman-4n2pw2i72onbrktrkm38cm.streamlit.app)**
 
 ---
 

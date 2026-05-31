@@ -12,6 +12,52 @@
 
 ---
 
+## 🗺️ Nasıl Kullanılır?
+
+```mermaid
+flowchart TD
+    A([🔗 Linke Tıkla]) --> B[Streamlit uygulaması yüklenir\n~5 saniye]
+    B --> C{Sol sidebar'ı aç}
+
+    C --> D[🌍 Şehir Seçimi\n2-4 şehir seç\nOran kaydırıcısını ayarla]
+    D --> E[🌦️ Mevsim Seç\nYaz · İlkbahar · Sonbahar · Kış]
+    E --> F[⚙️ Harita Ayarları\nYoğunluk · Boyut · Hava]
+    F --> G[[🗺️ HARMANLA butonuna bas]]
+
+    G --> H{İlk kez mi?}
+    H -->|Evet - 30-60 sn| I[OSM verisi indiriliyor...\nTokyo · İstanbul · Paris...]
+    H -->|Hayır - Anında| J
+    I --> J([🎮 3D Dünya Hazır!])
+
+    J --> K[W/S → İleri/Geri\nA/D → Dön]
+    J --> L[🤖 AI Modu\nDoğal dil ile şehir tanımla]
+    J --> M[🏛️ Sponsor Ekle\nLandmark'lara marka bağla]
+    J --> N[👤 FBX Karakter\nKendi modelini yükle]
+
+    style A fill:#e94560,color:#fff
+    style G fill:#e94560,color:#fff
+    style J fill:#00d4ff,color:#000
+    style K fill:#1a1a2e,color:#e0e0e0
+    style L fill:#1a1a2e,color:#e0e0e0
+    style M fill:#1a1a2e,color:#e0e0e0
+    style N fill:#1a1a2e,color:#e0e0e0
+```
+
+### ⚡ Hızlı Başlangıç (30 saniye)
+
+| Adım | Açıklama |
+|------|----------|
+| **1** | [Linke tıkla](https://harman-4n2pw2i72onbrktrkm38cm.streamlit.app) — tarayıcıda açılır |
+| **2** | Sol sidebar → **Şehir 1** ve **Şehir 2** seç (örn: Tokyo + İstanbul) |
+| **3** | **Veri Kaynağı** → `OSM Gerçek Veri` seç |
+| **4** | 🗺️ **HARMANLA** butonuna bas |
+| **5** | Harita yüklenince **W/S/A/D** ile yürü |
+
+> ⏱️ **İlk yükleme:** OpenStreetMap verisi indirilirken 30-60 saniye bekleyebilir.  
+> ⚡ **Sonraki açılışlar:** Önbellekten anında yüklenir.
+
+---
+
 ## ✨ Özellikler
 
 - **6 Şehir** — Tokyo · İstanbul · Paris · New York · Dubai · Londra
